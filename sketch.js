@@ -23,7 +23,7 @@ function setup() {
   boy = createSprite(50, 400, 30, 30)
   boy.addImage("standing", boyStanding)
   boy.addAnimation("walking", boyWalking)
-  hotel.addImage("hotel", hotel_image)
+  
 
   button = createButton('Rules');
   button.position(20, 20);
@@ -34,6 +34,7 @@ function setup() {
   paper.visible = false
 
   hotel = createSprite(width -100, height/2, 500, 500)
+  hotel.addImage("hotel", hotel_image)
 }
 
 function draw() {
