@@ -15,7 +15,7 @@ function preload() {
   '../assets/boy_walking_6.png')
   boyStanding = loadImage('../assets/boy_walking_5.png')
   rules = loadImage('../assets/paper_bg.png')
-  hotel_image = loadImage('../assets.hotel.png')
+  hotel_image = loadImage('../assets/hotel.png')
 }
 
 function setup() {
